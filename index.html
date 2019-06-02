@@ -1,0 +1,1350 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-LIFE - knutsford Campus Life</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ </head>
+
+  <header>
+<div id="top"class="flex-container">
+    <div id="links"  style="text-align:center;">
+    <h1 id="logo" class="animated bounceInLeft"><i class="fa fa-users" aria-hidden="true"></i>  K-LIFE </h1>
+    </br>
+    <div id="header_links" class="animated fadeInRight">
+      <a href="#body" onclick="openLife()" style="margin-left:30px;"><i class="fa fa-heartbeat  animated infinite pulse" aria-hidden="true"></i>  Student Life</a>
+        <a href="#body" onclick="openCareer()"><i class="fa fa-camera animated infinite tada" aria-hidden="true"></i> Gallery</a>
+          <a href="#body" onclick="openNews()"><i class="fa fa-newspaper-o  animated infinite wobble" aria-hidden="true"></i> Student News</a>
+            <a href="#body" onclick="openClubs()"><i class="fa fa-users  animated infinite rubberBand" aria-hidden="true"></i>  Clubs and Societies</a>
+              <a href="#body" onclick="openGovernment()"><i class="fa fa-balance-scale animated infinite swing" aria-hidden="true"></i> Government</a>
+
+    </div>
+
+    <div class="sak">
+            <div id="header_links_mobile" class="animated  fadeInRight">
+
+              <a href="#body" class="lin" style="font-size:20px;" onclick="openLife()"><i class="fa fa-heartbeat  animated infinite pulse" aria-hidden="true"></i> </a>
+              <a href="#body"class="lin"style="font-size:20px;" onclick="openCareer()"><i class="fa fa-camera animated infinite tada" aria-hidden="true"></i> </a>
+              <a href="#body"class="lin" style="font-size:20px;" onclick="openNews()"><i class="fa fa-newspaper-o  animated infinite wobble" aria-hidden="true"></i> </a>
+              <a href="#body" class="lin"style="font-size:20px;" onclick="openClubs()"><i class="fa fa-users  animated infinite rubberBand" aria-hidden="true"></i>  </a>
+              <a href="#body"class="lin"style="font-size:20px;" onclick="openGovernment()"><i class="fa fa-balance-scale animated infinite swing" aria-hidden="true"></i> </a>
+
+            </div>
+    </div>
+
+  </div>
+</div>
+  <div class="links-flex-container animated bounceInLeft">
+    <a href="#"id="right_links"><i class="fa fa-info animated infinite tada" aria-hidden="true"></i> | Notice Board</a>
+    <a href="#" id="right_links"><i class="fa fa-user-circle-o" aria-hidden="true"></i> | K-Portal</a>
+    <a href="#" id="right_links" class="sak"><i class="fa fa-spinner fa-spin  fa-fw" ></i>
+  <span class="sr-only">Loading...</span> | Sakai Portal</a>
+</div>
+
+    </br></br></br></br></br></br></br></br></br></br>
+    <div class="animated bounceInUp" id="welcome_div">
+    <h2>Welcome to K-Life</br> Knutsfords Online Student Social Platform.</h2></br>
+    <p id="welcome_text" class="mySlides animated pulse"><i class="fa fa-users"style="font-size:30px" aria-hidden="true"></i>  | K-Life is a social platform that brings a unique way to <em style="color:#fed123;	">Socialize</em> and <em style="color:#fed123;">Share Ideas</em> with everyone, as well as experience first hand, the various activities students experience.
+  </p>
+  <p id="welcome_text" class="mySlides animated pulse"><i class="fa fa-globe" style="font-size:30px;"aria-hidden="true"></i> |  Our Vision is to bring an <em style="color:#fed123;">Innovative</em> and <em style="color:#fed123;">Creative</em> way for students to share ideas, learn  and solve problems, as well as,
+ connect the students on a common platform where learning and fun cross roads.</br>
+
+</p>
+</br></br>
+</div>
+
+
+
+</header>
+
+  <body>
+
+
+</br></br></br></br>
+      <div class="quotes"></br>
+        <h3 style="color:#aaa;font-size :25px; text-align:center;"><i class="fa fa-quote-left" aria-hidden="true"></i> STUDENT QUOTES <i class="fa fa-quote-right" aria-hidden="true"></i></h3>
+        </br>
+
+
+        <div style="text-align:center; color:#fff;font-size:23px;"class="mySlides1 animated bounceInRight"><img src="img/tj.jpg" id="quotes_img"class=" animated infinite pulse" style="float:left;  margin-right:30px; border-radius:400px;" alt="" width="150" height="150" />
+<div class="name">
+  Ahmad Bashir,
+</div>
+
+        <p>  <i class="fa fa-quote-left" aria-hidden="true"></i> K-Life will <em style="color:#fed123;	">Motivate</em> and <em style="color:#fed123;	">Encourage</em>  students to show case the school to their friends and family through their experiences as well as provide publicity through other social media.
+    <i class="fa fa-quote-right" aria-hidden="true"></i></p>
+  </div>
+
+
+
+      <div style="text-align:center; color:#fff;font-size:23px;" class="mySlides1 animated bounceInRight">
+        <img src="img/baffour.jpg" id="quotes_img" class=" animated infinite pulse" style="float:left;  margin-right:30px;  border-radius:400px;" alt="" width="150" height="150" />
+
+        <div class="name">
+          Baffour Adu Boampong,
+        </div>
+        <p><i class="fa fa-quote-left" aria-hidden="true"></i> A platform for sharing of <em style="color:#fed123;">Resources</em> and <em style="color:#fed123;">Fostering</em> Socialization makes learning fun and easy because, you dont just learn from lecturers but your friends as well. <em style="color:#fed123;">K-LIFE</em> makes campus openly connected.
+      <i class="fa fa-quote-right" aria-hidden="true"></i></p></br>
+    </div>
+
+
+    <div style="text-align:center; color:#fff;font-size:23px;" class="mySlides1 animated bounceInRight"><img src="img/saliha.jpg" class=" animated infinite pulse" id="quotes_img"  style="float:left;  margin-right:30px; border-radius:400px;" alt="" width="150" height="150" />
+      <div class="name">
+        Saliha Hotsamali,
+      </div>
+
+     <p>  <i class="fa fa-quote-left" aria-hidden="true"></i> I think it will help make  <em style="color:#fed123;">Learning</em>, as well as, sharing of <em style="color:#fed123;">Information</em> and retrieving them faster and also connect students socially.
+    <i class="fa fa-quote-right" aria-hidden="true"></i></p></br></div>
+
+
+
+
+   <div style="text-align:center; color:#fff;font-size:23px;" class="mySlides1 animated bounceInRight"><img src="img/merit.jpg" class=" animated infinite pulse" id="quotes_img"  style="float:left;  margin-right:30px; border-radius:400px;" alt="" width="150" height="150" />
+     <div class="name">
+       Merit Chika Okpara,
+     </div>
+
+      <p><i class="fa fa-quote-left" aria-hidden="true"></i>
+I believe that K-Life  will instill <em style="color:#fed123;">Confidence</em> in students and make us belong to something bigger, <em style="color:#fed123;"> United </em> and working as a single organism. <em style="color:#fed123;"><b>#WeAreKUC</b></em>. <i class="fa fa-quote-right" aria-hidden="true"></i></br></div></p>
+
+  <div style="text-align:center; color:#fff;font-size:23px;" class="mySlides1 animated bounceInRight"><img src="img/mike.jpg" class=" animated infinite pulse" id="quotes_img"  style="float:left;  margin-right:30px; border-radius:400px;" alt="" width="150" height="150" />
+    <div class="name">
+      Michael Sarpong,
+    </div>
+
+     <p><i class="fa fa-quote-left" aria-hidden="true"></i> I think it will enhance <em style="color:#fed123;">Socialization</em> amongst students of different backgrounds, as well as , improve <em style="color:#fed123;">Academic</em> performance.
+  <i class="fa fa-quote-right" aria-hidden="true"></i></p></br></div>
+
+
+
+<div style="text-align:center; color:#fff;font-size:23px;" class="mySlides1 animated bounceInRight"><img src="img/robbie.jpg" class=" animated infinite pulse" id="quotes_img"  style="float:left;  margin-right:30px; border-radius:400px;" alt="" width="150" height="150" />
+  <div class="name">
+  Roberta,
+  </div>
+
+<p>   <i class="fa fa-quote-left" aria-hidden="true"></i> A platform where students  <em style="color:#fed123;">Update</em> each other about upcoming events inthe school, share ideas, and <em style="color:#fed123;">Familiarize</em> ourselves will make us more united. <i class="fa fa-quote-right" aria-hidden="true"></i></p></br></div>
+
+
+    <div style="text-align:center; color:#fff;font-size:23px;" class="mySlides1 animated bounceInRight"><img src="img/moh.jpg" class=" animated infinite pulse" id="quotes_img"  style="float:left;margin-right:50px; border-radius:400px;" alt="" width="150" height="150" />
+      <div class="name">
+        Muhammad Ibrahim,
+      </div>
+
+    <p>   <i class="fa fa-quote-left" aria-hidden="true"></i> A medium that doesn't only facilitate <em style="color:#fed123;">Interaction</em> amongst students, but also provides them with the ability to motivate and <em style="color:#fed123;">Inspire</em> others in many ways will help us focus on our goals. <i class="fa fa-quote-right" aria-hidden="true"></i></p></br></div>
+
+
+
+    <div style="text-align:left;color:#fff; font-size:23px;"class="mySlides1 animated bounceInRight"><img src="img/amanda.jpg"class=" animated infinite pulse" id="quotes_img"  style="float:left;   margin-right:30px;border-radius:400px;" alt="" width="150" height="150" />
+
+      <div class="name">
+        Amanda Koranteng,
+      </div>
+
+      <p><i class="fa fa-quote-left" aria-hidden="true"></i> Communication is an important key in <em style="color:#fed123;">Relationships</em>. A bond that <em style="color:#fed123;">Unites</em> individuals with a common  purpose or goal.
+  <i class="fa fa-quote-right" aria-hidden="true"></i></p>  </div>
+</br></br></br>
+    </div>
+
+
+
+
+</br></br></br></br>
+
+
+<div class="main">
+
+
+<div id="body"class="body  ">
+  <div class="body_nav"style="text-align:center;" id="header_links">
+    <button href="#" onclick="openLife()"id="lnklife"style="margin-left:30px;"><i class="fa fa-heartbeat  animated infinite pulse" aria-hidden="true"></i>  Student Life</button>
+    <button href="#" onclick="openCareer()"id="lnkcareer"><i class="fa fa-camera animated infinite tada" aria-hidden="true"></i> Gallery</button>
+
+    <button href="#"onclick="openNews()"id="lnknews"><i class="fa fa-newspaper-o  animated infinite wobble" aria-hidden="true"></i> Student News</button>
+    <button href="#"onclick="openClubs()"id="lnkclubs"><i class="fa fa-users  animated infinite rubberBand" aria-hidden="true"></i>  Clubs and Societies</button>
+    <button href="#"onclick="openGovernment()"id="lnkgovernment"><i class="fa fa-balance-scale animated infinite swing" aria-hidden="true"></i> Government</button>
+  </br></br></div>
+
+  <div class="body_nav" class="bnav"style="float:none;text-align:center;font-size:14px;"id="header_links_mobile">
+    <button href="#"class="bnav" onclick="openLife()"id="lnklife"style=" font-size:14px;"><i class="fa fa-heartbeat  animated infinite pulse" aria-hidden="true"></i> </button>
+    <button href="#" class="bnav"onclick="openCareer()"id="lnkcareer"style=" font-size:14px;"><i class="fa fa-camera animated infinite tada" aria-hidden="true"></i> </button>
+
+    <button href="#"class="bnav"onclick="openNews()"id="lnknews"style=" font-size:14px;"><i class="fa fa-newspaper-o  animated infinite wobble" aria-hidden="true"></i></button>
+    <button href="#"class="bnav"onclick="openClubs()"id="lnkclubs"style=" font-size:14px;"><i class="fa fa-users  animated infinite rubberBand" aria-hidden="true"></i>  </button>
+    <button href="#"class="bnav"onclick="openGovernment()"id="lnkgovernment"style=" font-size:14px;"><i class="fa fa-balance-scale animated infinite swing" aria-hidden="true"></i> </button>
+  </br></br></div></br>
+
+  <div id="student_life" class="animated fadeInUp" style="display:block">
+    <h1 id="title" ><i class="fa fa-heartbeat animated infinite pulse" aria-hidden="true"></i> |
+    STUDENT LIFE</h1>
+    </br></br>
+<div class="desk-gallery" style="">
+    <div class="flex-container">
+    <div class="text_div">
+      <h3><i class="fa fa-calendar-o" aria-hidden="true"></i>  |  EVENTS AND OCCASIONS</h3></br>
+      <p id="body_text">Watch and experience events first hand as they unfold. </p>
+    </div>
+      <div class="flex-item">
+          <a   href="#">
+              <img src="img/kcaf.jpg" class="clubs-flex-img" alt="FuelFLex" width="300" height="100%">
+          </a>
+          <div class="description">
+            Events and Occassions
+          </div>
+    </div>
+
+  </div> </br> </br> </br> </br>
+  <div class="flex-container">
+    <div class="flex-item">
+        <a   href="#">
+            <img src="img/study.jpg" class="clubs-flex-img" alt="FuelFLex" width="300" height="300">
+        </a>
+        <div class="description">
+          Study Life
+        </div>
+  </div>
+  <div class="text_div">
+    <h3><i class="fa fa-book" aria-hidden="true"></i> | STUDY LIFE</h3></br>
+    <p id="body_text">Experience the study life of students as they progress at their respective degrees.</p>
+  </div>
+
+
+  </div> </br> </br>
+ </br> </br>
+  <div class="flex-container">
+  <div class="text_div">
+    <h3><i class="fa fa-futbol-o" aria-hidden="true"></i> |
+ LEISURE AND ACTIVITIES</h3></br>
+    <p id="body_text">
+See how students spend their leisure time through fun activities and more.</p>
+  </div>
+    <div class="flex-item">
+        <a   href="#">
+            <img src="img/fun.jpg" class="clubs-flex-img" alt="FuelFLex" width="300" height="300">
+        </a>
+        <div class="description">
+          Liesure and Activities
+        </div>
+
+
+  </div>
+
+</div>
+</div>
+<div class="mob-gallery" style="">
+
+  <div class="flex-container">
+  <div class="text_div">
+    <h3><i class="fa fa-calendar-o" aria-hidden="true"></i>  |  EVENTS AND OCCASIONS</h3> </br>
+    <p id="body_text">Watch and experience events first hand as they unfold. </p>
+  </div></div></br></br>
+  <div class="flex-container">
+    <div class="flex-item">
+        <a   href="#">
+            <img src="img/kcaf.jpg" class="clubs-flex-img" alt="FuelFLex" width="300" height="100%">
+        </a>
+        <div class="description">
+          Events and Occassions
+        </div>
+  </div>
+
+</div> </br> </br>
+  <h3><i class="fa fa-book" aria-hidden="true"></i> | STUDY LIFE</h3></br>
+
+<div class="flex-container">
+<div class="text_div">
+  <p id="body_text">Experience the study life of students as they progress at their respective degrees.</p>
+</div>
+
+
+</div> </br> </br><div class="flex-container">
+  <div class="flex-item">
+      <a   href="#">
+          <img src="img/study.jpg" class="clubs-flex-img" alt="FuelFLex" width="300" height="300">
+      </a>
+      <div class="description">
+        Study Life
+      </div>
+</div></div>
+ </br> </br>
+</br> </br>
+  <h3><i class="fa fa-futbol-o" aria-hidden="true"></i> |
+LEISURE AND ACTIVITIES</h3></br>
+<div class="flex-container">
+<div class="text_div">
+  <p id="body_text">
+See how students spend their leisure time through fun activities and more.</p>
+</div>
+</div></br> </br>
+<div class="flex-container">
+  <div class="flex-item">
+      <a   href="#">
+          <img src="img/fun.jpg" class="clubs-flex-img" alt="FuelFLex" width="300" height="300">
+      </a>
+      <div class="description">
+        Liesure and Activities
+      </div>
+
+
+</div>
+
+</div>
+
+</div></br>
+
+</div>
+<div id="gallery" class="animated fadeInUp"  style="display:none;"><h1 id="title">
+<i class="fa fa-camera animated infinite tada" aria-hidden="true"></i> GALLERY</h1>
+<div class="desk-gallery" style="">
+
+
+    <div class="gallery_flex_container">
+
+      <div class="gallery_flex_item">
+        <img src="gallery/demo1.jpg"  onclick="openModal();currentSlide(1)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+      </div>
+      <div class="gallery_flex_item">
+        <img src="gallery/demo2.jpg"  onclick="openModal();currentSlide(2)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+      </div>
+      <div class="gallery_flex_item">
+        <img src="gallery/demo3.jpg" onclick="openModal();currentSlide(3)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+      </div>
+
+
+    </div>
+
+
+    <div class="gallery_flex_container">
+
+      <div class="gallery_flex_item">
+        <img src="gallery/demo4.jpg"  onclick="openModal();currentSlide(4)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+      </div>
+      <div class="gallery_flex_item">
+        <img src="gallery/demo5.jpg" onclick="openModal();currentSlide(5)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+      </div>
+      <div class="gallery_flex_item" >
+        <img src="gallery/demo6.jpg" onclick="openModal();currentSlide(6)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+      </div>
+
+    </div>
+    <div class="gallery_flex_container">
+
+
+      <div class="gallery_flex_item">
+        <img src="gallery/demo7.jpg"  onclick="openModal();currentSlide(7)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+      </div>
+      <div class="gallery_flex_item">
+        <img src="gallery/demo8.jpg" onclick="openModal();currentSlide(8)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+      </div>
+      <div class="gallery_flex_item" >
+        <img src="gallery/demo9.jpg" onclick="openModal();currentSlide(9)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+      </div>
+
+    </div>
+
+    <div class="gallery_flex_container">
+
+
+      <div class="gallery_flex_item">
+        <img src="gallery/demo10.jpg"  onclick="openModal();currentSlide(10)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+      </div>
+      <div class="gallery_flex_item">
+        <img src="gallery/demo11.jpg" onclick="openModal();currentSlide(11)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+      </div>
+      <div class="gallery_flex_item" >
+        <img src="gallery/demo12.jpg" onclick="openModal();currentSlide(12)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+      </div>
+
+    </div>
+
+    <div class="gallery_flex_container">
+
+
+      <div class="gallery_flex_item">
+        <img src="gallery/demo13.jpg"  onclick="openModal();currentSlide(13)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+      </div>
+      <div class="gallery_flex_item">
+        <img src="gallery/demo14.jpg" onclick="openModal();currentSlide(14)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+      </div>
+      <div class="gallery_flex_item" >
+        <img src="gallery/demo15.jpg" onclick="openModal();currentSlide(15)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+      </div>
+
+    </div>
+    <div class="gallery_flex_container">
+
+
+      <div class="gallery_flex_item">
+        <img src="gallery/demo16.jpg"  onclick="openModal();currentSlide(16)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+      </div>
+
+      </div>
+
+    </div>
+
+
+        <div class="mob-gallery" style=" margin:auto; max-width:250px; height:100%;">
+          <div class="gallery_flex_container">
+
+            <div class="gallery_flex_item">
+              <img src="gallery/demo1.jpg"  onclick="openModal();currentSlide(1)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+            </div>
+          </div>
+            <div class="gallery_flex_container">
+            <div class="gallery_flex_item">
+              <img src="gallery/demo2.jpg"  onclick="openModal();currentSlide(2)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+            </div>
+          </div>
+            <div class="gallery_flex_container">
+            <div class="gallery_flex_item">
+              <img src="gallery/demo3.jpg" onclick="openModal();currentSlide(3)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+            </div>
+
+
+          </div>
+
+
+          <div class="gallery_flex_container">
+
+            <div class="gallery_flex_item">
+              <img src="gallery/demo4.jpg"  onclick="openModal();currentSlide(4)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+            </div></div>
+            <div class="gallery_flex_container">
+            <div class="gallery_flex_item">
+              <img src="gallery/demo5.jpg" onclick="openModal();currentSlide(5)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+            </div>
+          </div>
+            <div class="gallery_flex_container">
+            <div class="gallery_flex_item" >
+              <img src="gallery/demo6.jpg" onclick="openModal();currentSlide(6)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+            </div>
+
+          </div>
+          <div class="gallery_flex_container">
+
+
+            <div class="gallery_flex_item">
+              <img src="gallery/demo7.jpg"  onclick="openModal();currentSlide(7)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+            </div>
+          </div>
+            <div class="gallery_flex_container">
+            <div class="gallery_flex_item">
+              <img src="gallery/demo8.jpg" onclick="openModal();currentSlide(8)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+            </div>
+          </div>
+            <div class="gallery_flex_container">
+            <div class="gallery_flex_item" >
+              <img src="gallery/demo9.jpg" onclick="openModal();currentSlide(9)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+            </div>
+
+          </div>
+
+          <div class="gallery_flex_container">
+
+
+            <div class="gallery_flex_item">
+              <img src="gallery/demo10.jpg"  onclick="openModal();currentSlide(10)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+            </div></div>
+            <div class="gallery_flex_container">
+            <div class="gallery_flex_item">
+              <img src="gallery/demo11.jpg" onclick="openModal();currentSlide(11)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+            </div>
+          </div>
+            <div class="gallery_flex_container">
+            <div class="gallery_flex_item" >
+              <img src="gallery/demo12.jpg" onclick="openModal();currentSlide(12)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+            </div>
+
+          </div>
+
+          <div class="gallery_flex_container">
+
+
+            <div class="gallery_flex_item">
+              <img src="gallery/demo13.jpg"  onclick="openModal();currentSlide(13)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+            </div>
+          </div>
+            <div class="gallery_flex_container">
+            <div class="gallery_flex_item">
+              <img src="gallery/demo14.jpg" onclick="openModal();currentSlide(14)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+            </div>
+          </div>
+            <div class="gallery_flex_container">
+            <div class="gallery_flex_item" >
+              <img src="gallery/demo15.jpg" onclick="openModal();currentSlide(15)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+            </div>
+
+          </div>
+          <div class="gallery_flex_container">
+
+
+            <div class="gallery_flex_item">
+              <img src="gallery/demo16.jpg"  onclick="openModal();currentSlide(16)"  alt="Fjords"class="gallery-flex-img  " width="100%" height="100%">
+
+            </div>
+
+            </div>
+
+          </div>
+
+        </div>
+    <!-- GALLERY MODAL -->
+    <div id="myModal" class="modal animated fadeIn">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+
+        <div class="mySlides4 animated fadeInRightBig">
+          <div class="numbertext">1 / 16</div>
+            <img src="gallery/1.jpg"  style="width:100%; border-radius:30px;box-shadow:0px 0px 35px rgba(255,255,255,0.5);">
+        </div>
+
+        <div class="mySlides4 animated fadeInLeftBig">
+          <div class="numbertext">2 / 16</div>
+            <img src="gallery/2.jpg" style="width:100%; border-radius:30px;box-shadow:0px 0px 35px rgba(255,255,255,0.5);">
+        </div>
+
+        <div class="mySlides4 animated fadeInRightBig">
+          <div class="numbertext">3 / 16</div>
+            <img src="gallery/3.jpg" style="width:100%; border-radius:30px;box-shadow:0px 0px 35px rgba(255,255,255,0.5);">
+        </div>
+
+        <div class="mySlides4 animated fadeInLeftBig">
+          <div class="numbertext">4 / 16</div>
+            <img src="gallery/4.jpg" style="width:100%; border-radius:30px;box-shadow:0px 0px 35px rgba(255,255,255,0.5);">
+        </div>
+
+        <div class="mySlides4 animated fadeInRightBig">
+          <div class="numbertext">5 / 16</div>
+            <img src="gallery/5.jpg"  style="width:100%; border-radius:30px;box-shadow:0px 0px 35px rgba(255,255,255,0.5);">
+        </div>
+
+        <div class="mySlides4 animated fadeInLeftBig">
+          <div class="numbertext">6 / 16</div>
+            <img src="gallery/6.jpg" style="width:100%; border-radius:30px;box-shadow:0px 0px 35px rgba(255,255,255,0.5);">
+        </div>
+
+        <div class="mySlides4 animated fadeInRightBig">
+          <div class="numbertext">7 / 16</div>
+            <img src="gallery/7.jpg" style="width:100%; border-radius:30px;box-shadow:0px 0px 35px rgba(255,255,255,0.5);">
+        </div>
+
+        <div class="mySlides4 animated fadeInLeftBig">
+          <div class="numbertext">8 / 16</div>
+            <img src="gallery/8.jpg" style="width:100%; border-radius:30px;box-shadow:0px 0px 35px rgba(255,255,255,0.5);">
+        </div>
+
+        <div class="mySlides4 animated fadeInRightBig">
+          <div class="numbertext">9 / 16</div>
+            <img src="gallery/9.jpg"  style="width:100%; border-radius:30px;box-shadow:0px 0px 35px rgba(255,255,255,0.5);">
+        </div>
+
+        <div class="mySlides4 animated fadeInLeftBig">
+          <div class="numbertext">10 / 16</div>
+            <img src="gallery/10.jpg" style="width:100%; border-radius:30px;box-shadow:0px 0px 35px rgba(255,255,255,0.5);">
+        </div>
+
+        <div class="mySlides4 animated fadeInRightBig">
+          <div class="numbertext">11 / 16</div>
+            <img src="gallery/11.jpg" style="width:100%; border-radius:30px;box-shadow:0px 0px 35px rgba(255,255,255,0.5);">
+        </div>
+
+        <div class="mySlides4 animated fadeInLeftBig">
+          <div class="numbertext">12 / 16</div>
+            <img src="gallery/12.jpg" style="width:100%; border-radius:30px;box-shadow:0px 0px 35px rgba(255,255,255,0.5);">
+        </div>
+        <div class="mySlides4 animated fadeInLeftBig">
+          <div class="numbertext">13 / 16</div>
+            <img src="gallery/13.jpg" style="width:100%; border-radius:30px;box-shadow:0px 0px 35px rgba(255,255,255,0.5);">
+        </div>
+
+        <div class="mySlides4 animated fadeInRightBig">
+          <div class="numbertext">14 / 16</div>
+            <img src="gallery/14.jpg" style="width:100%; border-radius:30px;box-shadow:0px 0px 35px rgba(255,255,255,0.5);">
+        </div>
+
+        <div class="mySlides4 animated fadeInLeftBig">
+          <div class="numbertext">15 / 16</div>
+            <img src="gallery/15.jpg" style="width:100%; border-radius:30px;box-shadow:0px 0px 35px rgba(255,255,255,0.5);">
+        </div>
+        <div class="mySlides4 animated fadeInLeftBig">
+          <div class="numbertext">16 / 16</div>
+            <img src="gallery/16.jpg" style="width:100%; border-radius:30px;box-shadow:0px 0px 35px rgba(255,255,255,0.5);">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+
+        <div class="column">
+          <img class="demo" src="gallery/demo1.jpg" onclick="currentSlide(1)"  >
+        </div>
+
+        <div class="column">
+          <img class="demo" src="gallery/demo2.jpg" onclick="currentSlide(2)"  >
+        </div>
+
+        <div class="column">
+          <img class="demo" src="gallery/demo3.jpg" onclick="currentSlide(3)">
+        </div>
+
+
+        <div class="column">
+          <img class="demo" src="gallery/demo4.jpg" onclick="currentSlide(4)" >
+        </div>
+
+        <div class="column">
+          <img class="demo" src="gallery/demo5.jpg" onclick="currentSlide(5)"  >
+        </div>
+
+        <div class="column">
+          <img class="demo" src="gallery/demo6.jpg" onclick="currentSlide(6)"  >
+        </div>
+
+        <div class="column">
+          <img class="demo" src="gallery/demo7.jpg" onclick="currentSlide(7)"  >
+        </div>
+
+        <div class="column">
+          <img class="demo" src="gallery/demo8.jpg" onclick="currentSlide(8)" >
+        </div>
+
+        <div class="column">
+          <img class="demo" src="gallery/demo9.jpg" onclick="currentSlide(9)"  >
+        </div>
+
+        <div class="column">
+          <img class="demo" src="gallery/demo10.jpg" onclick="currentSlide(10)"  >
+        </div>
+
+        <div class="column">
+          <img class="demo" src="gallery/demo11.jpg" onclick="currentSlide(11)"  >
+        </div>
+
+        <div class="column">
+          <img class="demo" src="gallery/demo12.jpg" onclick="currentSlide(12)" >
+        </div>
+        <div class="column">
+          <img class="demo" src="gallery/demo13.jpg" onclick="currentSlide(13)"  >
+        </div>
+
+        <div class="column">
+          <img class="demo" src="gallery/demo14.jpg" onclick="currentSlide(14)"  >
+        </div>
+
+        <div class="column">
+          <img class="demo" src="gallery/demo15.jpg" onclick="currentSlide(15)"  >
+        </div>
+
+        <div class="column">
+          <img class="demo" src="gallery/demo16.jpg" onclick="currentSlide(16)" >
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+<div id="s_news"  class="animated fadeInUp" style="display:none;">
+</br>
+  <h1 id="title" style="color:#ccc;" > <i class="fa fa-newspaper-o animated infinite wobble" aria-hidden="true"></i>  STUDENT  NEWS</h1>
+<div class="desk-gallery" style="">
+<div class="flex-container">
+
+<div class="clubs-flex-item">
+   <a   href="img/irobot.jpg">
+       <img src="img/irobot.jpg" class="clubs-flex-img"width="100%" height="200">
+   </a>
+           <div class="desc"> I-Robot Performs at knutsford Award Night.</div>
+</div>
+
+
+<div class="clubs-flex-item">
+
+ <a href="#">
+     <img src="img/kcompound1.jpg" class="clubs-flex-img"alt="Fjords" width="100%" height="200">
+ </a>
+         <div class="desc">J & J Wow The Audience, and Take Award.</div>
+
+</div>
+<div class="clubs-flex-item">
+
+ <a  href="img/savaga.jpg">
+     <img src="img/savaga.jpg" alt="Fjords" class="clubs-flex-img"width="100%" height="200">
+ </a>
+         <div class="desc">Savaga Freestyle on Reggae Beat.</div>
+
+</div>
+</div>
+</br> </br>
+
+<div class="flex-container">
+  <div class="clubs-flex-item">
+
+   <a   href="#">
+       <img src="img/kcompound1.jpg"class="clubs-flex-img" alt="Fjords" width="100%" height="200">
+   </a>
+           <div class="desc">Knustford Hall Wins Football and Basketball Games. </div>
+
+  </div>
+
+<div class="clubs-flex-item">
+   <a   href="#">
+       <img src="img/kcaf.jpg" alt="Fjords"class="clubs-flex-img" width="100%" height="200">
+   </a>
+           <div class="desc">J & J Perform During Knustford Concert Night.</div>
+</div>
+
+
+
+<div class="clubs-flex-item">
+
+ <a   href="img/missk.jpg">
+     <img src="img/missk.jpg" class="clubs-flex-img"alt="Fjords" width="100%" height="200">
+ </a>
+         <div class="desc"><i class="fa fa-university" aria-hidden="true"></i> Kose Wins Miss Knutsford Competition</div>
+
+</div>
+
+
+</div>
+</div>
+<div class="mob-gallery" style="">
+
+  <div class="flex-container" >
+
+  <div class="clubs-flex-item" style="margin:auto;">
+     <a   href="img/irobot.jpg">
+         <img src="img/irobot.jpg" class="clubs-flex-img"width="100%" height="200">
+     </a>
+             <div class="desc"> I-Robot Performs at knutsford Award Night.</div>
+  </div>
+</div></br> </br>
+
+  <div class="flex-container">
+  <div class="clubs-flex-item"style="margin:auto;">
+
+   <a href="#">
+       <img src="img/kcompound1.jpg" class="clubs-flex-img"alt="Fjords" width="100%" height="200">
+   </a>
+           <div class="desc">J & J Wow The Audience, and Take Award.</div>
+
+  </div>
+</div></br> </br>
+
+  <div class="flex-container">
+  <div class="clubs-flex-item"style="margin:auto;">
+
+   <a  href="img/savaga.jpg">
+       <img src="img/savaga.jpg" alt="Fjords" class="clubs-flex-img"width="100%" height="200">
+   </a>
+           <div class="desc">Savaga Freestyle on Reggae Beat.</div>
+
+  </div>
+  </div>
+  </br> </br>
+
+  <div class="flex-container">
+    <div class="clubs-flex-item"style="margin:auto;">
+
+     <a   href="#">
+         <img src="img/kcompound1.jpg"class="clubs-flex-img" alt="Fjords" width="100%" height="200">
+     </a>
+             <div class="desc">Knustford Hall Wins Football and Basketball Games. </div>
+
+    </div>
+</div></br> </br>
+      <div class="flex-container">
+  <div class="clubs-flex-item"style="margin:auto;">
+     <a   href="#">
+         <img src="img/kcaf.jpg" alt="Fjords"class="clubs-flex-img" width="100%" height="200">
+     </a>
+             <div class="desc">J & J Perform During Knustford Concert Night.</div>
+  </div>
+</div></br> </br>
+
+
+    <div class="flex-container">
+  <div class="clubs-flex-item"style="margin:auto;">
+
+   <a   href="img/missk.jpg">
+       <img src="img/missk.jpg" class="clubs-flex-img"alt="Fjords" width="100%" height="200">
+   </a>
+           <div class="desc"><i class="fa fa-university" aria-hidden="true"></i> Kose Wins Miss Knutsford Pagent</div>
+
+  </div>
+
+</div>
+  </div>
+
+
+</br> </br>
+</div>
+
+
+<div id="student_clubs" class="animated fadeInUp"  style="display:none;">
+  <h1 id="title"><i class="fa fa-users animated infinite rubberBand" aria-hidden="true"></i>   CLUBS AND SOCIETIES
+   </h1>
+</br>
+<div class="desk-gallery" style="">
+   <div class="clubs-flex-container">
+
+     <div class="clubs-flex-item">
+         <a   href="#">
+             <img src="img/space.jpg" class="clubs-flex-img" alt="FuelFLex" width="300" height="200">
+         </a>
+                 <div class="desc"> Space Lab</div>
+   </div>
+   <div class="text_div">
+     <h3 style="text-align: center;">SPACE LAB</h3></br>
+    <p class="small-font"> Space Labs Mission is to Address the Needs of Individual Users and the Society, Sharing Knowledge, Skills, Enthusiasm and Provide Practical Training and Support Through Science.</p>
+   </div>
+
+ </div>
+
+</br> </br>
+</br> </br>
+ <div class="clubs-flex-container">
+   <div class="text_div">
+     <h3 style="text-align: center;">DEBATE CLUB</h3></br>
+     <p class="small-font"> The Debate Club is Responsible for Addressing Common Issues and Problems in our Society and Around The World. We Tackle The Effects of Such Problems and Work our Way to Finding Suitable Solutions to Them.</p>
+   </div>
+   <div class="clubs-flex-item">
+           <img src="img/kcaf.jpg" class="clubs-flex-img" alt="FuelFLex" width="300" height="200">
+       </a>
+               <div class="desc">Debate Club</div>
+
+
+ </div>
+
+
+ </div>
+</br> </br>
+</br> </br>
+
+ <div class="clubs-flex-container">
+   <div class="clubs-flex-item">
+           <img src="img/drama.jpg" class="clubs-flex-img" alt="FuelFLex" width="300" height="200">
+       </a>
+               <div class="desc">Drama and Entertainment</div>
+
+
+ </div>
+ <div class="text_div">
+   <h3 style="text-align: center;">DRAMA AND ENTERTAINMENT</h3></br>
+   <p class="small-font"> The Drama Clubs Main Objective is to Remind Students as well as People in the Society the Importance of Culture and Tradition as well as Provide Entertainment.</p>
+ </div>
+
+</div>
+</div>
+<div class="mob-gallery" style="margin:auto;">
+
+
+
+
+
+
+  <div class="clubs-flex-container">
+  <div class="text_div">
+    <h3 style="text-align: center;">SPACE LAB</h3></br>
+   <p class="small-font"> Space Labs Mission is to Address the Needs of Individual Users and the Society, Sharing Knowledge, Skills, Enthusiasm and Provide Practical Training and Support Through Science.</p>
+  </div>
+
+</div>
+
+
+</br> </br>
+<div class="clubs-flex-container">
+
+  <div class="clubs-flex-item"style="margin:auto;">
+      <a   href="#">
+          <img src="img/space.jpg" class="clubs-flex-img" alt="FuelFLex" width="300" height="200">
+      </a>
+              <div class="desc"> Space Lab</div>
+</div>
+</div>
+</br> </br>
+<div class="clubs-flex-container">
+  <div class="text_div">
+    <h3 style="text-align: center;">DEBATE CLUB</h3></br>
+    <p class="small-font"> The Debate Club is Responsible for Addressing Common Issues and Problems in our Society and Around The World. We Tackle The Effects of Such Problems and Work our Way to Finding Suitable Solutions to Them.</p>
+  </div></div></br> </br>
+  <div class="clubs-flex-container">
+  <div class="clubs-flex-item"style="margin:auto;">
+          <img src="img/kcaf.jpg" class="clubs-flex-img" alt="FuelFLex" width="300" height="200">
+      </a>
+              <div class="desc">Debate Club</div>
+
+
+</div>
+</div>
+
+
+</br> </br>
+<div class="clubs-flex-container">
+<div class="text_div">
+  <h3 style="text-align: center;">DRAMA AND ENTERTAINMENT</h3></br>
+  <p class="small-font"> The Drama Clubs Main Objective is to Remind Students as well as People in the Society the Importance of Culture and Tradition as well as Provide Entertainment.</p>
+</div>
+
+</div>
+</br> </br>
+
+<div class="clubs-flex-container">
+  <div class="clubs-flex-item"style="margin:auto;">
+          <img src="img/drama.jpg" class="clubs-flex-img" alt="FuelFLex" width="300" height="200">
+      </a>
+              <div class="desc">Drama and Entertainment</div>
+
+
+</div></div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</br> </br>
+</br> </br>
+</div>
+
+
+
+
+
+
+    <div id="student_government" class="animated fadeInUp"  style="display:none;"><h1 id="title"style="color:#ccc;"><i class="fa fa-balance-scale animated infinite swing" aria-hidden="true"></i> GOVERNMENT</h1>
+
+ </br>
+<div class="desk-gallery">
+
+
+
+   <div class="flex-container">
+     <div class="gov-flex-item ">
+         <a   href="#">
+             <img src="img/john.jpg"id="gov-img"  alt="" width="100%" height="300">
+         </a>
+                 <div class="desc">
+                   <div class="mini-font">
+                   NAME: JOHN KOMADAN,
+                 </div>
+                 <div class="mini-font">
+                 POSITION: SRC President
+               </div>
+                 <!-- Description -->
+                 </div>
+     </div>
+     <div class="gov-flex-item ">
+
+       <a   href="fjords.jpg">
+           <img src="img/kcaf.jpg" id="gov-img"alt="Fjords" width="100%" height="300">
+       </a>
+       <div class="desc">
+         <div class="mini-font">
+         NAME: Saliha Hotsamali,
+       </div>
+       <div class="mini-font">
+       POSITION: SRC Vice President
+     </div>
+       <!-- Description -->
+       </div>
+     </div>
+
+     <div class="gov-flex-item ">
+
+       <a   href="fjords.jpg">
+           <img src="img/clinton.jpg"id="gov-img"  alt="Fjords" width="100%" height="300">
+       </a>
+       <div class="desc">
+         <div class="mini-font">
+         NAME: OKATA CLINTON,
+       </div>
+       <div class="mini-font">
+       POSITION: SRC Organizer
+     </div>
+       <!-- Description -->
+       </div>
+     </div>
+   </div></br></br></br></br>
+   <div class="flex-container ">
+     <div class="gov-flex-item ">
+
+       <a   href="fjords.jpg">
+           <img src="img/wilhel.jpg" id="gov-img"alt="Fjords" width="100%" height="300">
+       </a>
+       <div class="desc">
+         <div class="mini-font">
+         NAME: WILHELMINA POKU AMOH,
+       </div>
+       <div class="mini-font">
+       POSITION: SRC General Secretary
+     </div>
+       <!-- Description -->
+       </div>
+     </div>
+     <div class="gov-flex-item ">
+
+       <a   href="fjords.jpg">
+           <img src="img/kcaf.jpg"id="gov-img" alt="Fjords" width="100%" height="300">
+       </a>
+       <div class="desc">
+         <div class="mini-font">
+         NAME: DAVID GBEVI,
+       </div>
+       <div class="mini-font">
+       POSITION: SRC Treasurer
+     </div>
+       <!-- Description -->
+       </div>
+     </div>
+     <div class="gov-flex-item ">
+
+       <a   href="fjords.jpg">
+           <img src="img/kcaf.jpg" id="gov-img"alt="Fjords" width="100%" height="300">
+       </a>
+       <div class="desc">
+         <div class="mini-font">
+         NAME: Saliha Hotsamali,
+       </div>
+       <div class="mini-font">
+       POSITION: SRC INTERNATIONAL PRESIDENT
+     </div>
+       <!-- Description -->
+       </div>
+     </div>
+   </div></br>
+
+ </br>
+</br>
+
+</div>
+<div class="mob-gallery" style="margin:auto; max-width:300px;">
+
+     <div class="flex-container">
+       <div class="gov-flex-item ">
+           <a   href="#">
+               <img src="img/john.jpg"id="gov-img"  alt="" width="100%" height="300">
+           </a>
+                   <div class="desc">
+                     <div class="mini-font">
+                     NAME: JOHN KOMADAN,
+                   </div>
+                   <div class="mini-font">
+                   POSITION: SRC President
+                 </div>
+                   <!-- Description -->
+                   </div>
+       </div></div>
+       <div class="flex-container">
+       <div class="gov-flex-item ">
+
+         <a   href="fjords.jpg">
+             <img src="img/kcaf.jpg" id="gov-img"alt="Fjords" width="100%" height="300">
+         </a>
+         <div class="desc">
+           <div class="mini-font">
+           NAME: Saliha Hotsamali,
+         </div>
+         <div class="mini-font">
+         POSITION: SRC Vice President
+       </div>
+         <!-- Description -->
+         </div>
+       </div>
+</div>
+<div class="flex-container">
+       <div class="gov-flex-item ">
+
+         <a   href="fjords.jpg">
+             <img src="img/clinton.jpg"id="gov-img"  alt="Fjords" width="100%" height="300">
+         </a>
+         <div class="desc">
+           <div class="mini-font">
+           NAME: OKATA CLINTON,
+         </div>
+         <div class="mini-font">
+         POSITION: SRC Organizer
+       </div>
+         <!-- Description -->
+         </div>
+       </div>
+     </div></br></br></br></br>
+     <div class="flex-container ">
+       <div class="gov-flex-item ">
+
+         <a   href="fjords.jpg">
+             <img src="img/wilhel.jpg" id="gov-img"alt="Fjords" width="100%" height="300">
+         </a>
+         <div class="desc">
+           <div class="mini-font">
+           NAME: WILHELMINA POKU AMOH,
+         </div>
+         <div class="mini-font">
+         POSITION: SRC General Secretary
+       </div>
+         <!-- Description -->
+         </div>
+       </div>
+     </div><div class="flex-container">
+       <div class="gov-flex-item ">
+
+         <a   href="fjords.jpg">
+             <img src="img/kcaf.jpg"id="gov-img" alt="Fjords" width="100%" height="300">
+         </a>
+         <div class="desc">
+           <div class="mini-font">
+           NAME: DAVID GBEVI,
+         </div>
+         <div class="mini-font">
+         POSITION: SRC Treasurer
+       </div>
+         <!-- Description -->
+         </div>
+       </div></div><div class="flex-container">
+       <div class="gov-flex-item ">
+
+         <a   href="fjords.jpg">
+             <img src="img/kcaf.jpg" id="gov-img"alt="Fjords" width="100%" height="300">
+         </a>
+         <div class="desc">
+           <div class="mini-font">
+           NAME: Saliha Hotsamali,
+         </div>
+         <div class="mini-font">
+         POSITION: SRC INTERNATIONAL PRESIDENT
+       </div>
+         <!-- Description -->
+         </div>
+       </div>
+</div>
+
+</div>
+
+
+
+
+</br> </br>
+</br>  </br>
+</br>  </br>
+</div>
+</br></br></br></br>
+</div>
+
+<footer>
+  <a href="#">Knutsford Home</a>
+  <a href="#">Contact Us</a>
+  <a href="#">Giving to knutsford</a>
+  <a href="#">Employment Opportunities</a></br></br>
+  <p><b>CONTACT US</b></p>
+  <p>10 Bamako Road, East Legon Close to the University of Ghana and Behind Mensvic Hotel.</br> | Phone: +233 302 521 611, +233 244 372 072</p></br>
+<p><b>KNUTSFORD UNIVERSITY</b> is Accredited by the <b>NATIONAL ACREDITATION BOARD</b></br> and affiliated to <b>UNIVERSITY OF GHANA LEGON</b>. </p>
+
+<div class="media">
+  <a href="#" id="fb"class="fa fa-facebook social"></a>
+<a href="#" id="twitter" class="fa fa-twitter social"></a>
+<a href="#"id="youtube" class="fa fa-youtube social"></a>
+<a href="#" id="insta"class="fa fa-instagram social"></a>
+<a href="#" id="sc"class="fa fa-snapchat-ghost social"></a>
+</div></br>
+<p style="float:right;">Powered By <b>KAMPUS.</b></p></br>
+</footer>
+
+
+
+
+</div>
+
+
+
+<script>
+
+function openLife() {
+
+    document.getElementById("student_government").style.display = "none";
+    document.getElementById("student_life").style.display = "block";
+    document.getElementById("student_clubs").style.display = "none";
+    document.getElementById("s_news").style.display = "none";
+    document.getElementById("gallery").style.display = "none";
+
+}
+function openNews() {
+  document.getElementById("student_government").style.display = "none";
+  document.getElementById("student_life").style.display = "none";
+  document.getElementById("student_clubs").style.display = "none";
+  document.getElementById("s_news").style.display = "block";
+  document.getElementById("gallery").style.display = "none";
+}
+function openClubs() {
+  document.getElementById("student_government").style.display = "none";
+  document.getElementById("student_life").style.display = "none";
+  document.getElementById("student_clubs").style.display = "block";
+  document.getElementById("s_news").style.display = "none";
+  document.getElementById("gallery").style.display = "none";
+}
+function openGovernment() {
+  document.getElementById("student_government").style.display = "block";
+  document.getElementById("student_life").style.display = "none";
+  document.getElementById("student_clubs").style.display = "none";
+  document.getElementById("s_news").style.display = "none";
+  document.getElementById("gallery").style.display = "none";
+}
+function openCareer() {
+  document.getElementById("student_government").style.display = "none";
+  document.getElementById("student_life").style.display = "none";
+  document.getElementById("student_clubs").style.display = "none";
+  document.getElementById("s_news").style.display = "none";
+  document.getElementById("gallery").style.display = "block";
+}
+
+var myIndex = 0;
+var myIndex1 = 0;
+carousel();
+carousel1();
+
+
+function carousel() {
+  var i;
+
+    var x= document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 8000);
+
+}
+function carousel1(){
+  var i;
+
+    var y= document.getElementsByClassName("mySlides1");
+    for (i = 0; i < y.length; i++) {
+       y[i].style.display = "none";
+
+    }
+    myIndex1++;
+    if (myIndex1 > y.length) {myIndex1 = 1}
+    y[myIndex1-1].style.display = "block";
+    setTimeout(carousel1, 12000);
+}
+
+
+
+//LIGHT BOX SCRIPT
+
+
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex4 = 1;
+showSlides(slideIndex4);
+
+function plusSlides(n) {
+  showSlides(slideIndex4 += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex4 = n);
+}
+
+function showSlides(n) {
+  var z;
+  var slides = document.getElementsByClassName("mySlides4");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex4 = 1}
+  if (n < 1) {slideIndex4 = slides.length}
+  for (z = 0; z < slides.length; z++) {
+    slides[z].style.display = "none";
+  }
+  for (z = 0; z < dots.length; z++) {
+    dots[z].className = dots[z].className.replace(" active", "");
+  }
+  slides[slideIndex4-1].style.display = "block";
+  dots[slideIndex4-1].className += " active";
+  captionText.innerHTML = dots[slideIndex4-1].alt;
+}
+
+
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+
+      event.preventDefault();
+
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1200, function(){
+
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+
+</script>
+  </body>
+
+
+</html>
